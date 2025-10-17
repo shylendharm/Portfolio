@@ -1,0 +1,23 @@
+/* Custom styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #111827; /* Tailwind gray-900 */
+    color: #d1d5db; /* Tailwind gray-300 */
+}
+/* Style for the active navigation link */
+.nav-link-active {
+    color: #38bdf8; /* Tailwind sky-400 */
+}
+/* Custom gradient text */
+.gradient-text {
+    background: linear-gradient(to right, #38bdf8, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Custom glassmorphism effect for the header */
+.glassmorphism {
+    background: rgba(17, 24, 39, 0.75);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
